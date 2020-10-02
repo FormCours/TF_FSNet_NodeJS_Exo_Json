@@ -1,0 +1,26 @@
+{
+  "name": "exo-fichier",
+  "version": "0.1.0",
+  "description": "Exercice de lecture d'un fichier JSON",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TFTIC",
+    "NodeJS",
+    "Exercice",
+    "Json"
+  ],
+  "author": "Aurélien",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormCours/TF_FSNet_NodeJS_Exo_Json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FormCours/TF_FSNet_NodeJS_Exo_Json/issues"
+  },
+  "homepage": "https://github.com/FormCours/TF_FSNet_NodeJS_Exo_Json#readme"
+}
