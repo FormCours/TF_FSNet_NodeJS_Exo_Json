@@ -5,7 +5,8 @@ const getPersonnages = (data) => {
     if(data.membre !== undefined) {
         let personnages = [];
         for(const membre of data.membre) {
-            personnages = [...personnages, ...getPersonnages(membre)]
+            // personnages = [...personnages, ...getPersonnages(membre)]
+            personnages = [].concat(personnages).concat(getPersonnages(membre));
         }
         return personnages
     }
